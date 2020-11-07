@@ -5,7 +5,6 @@ import java.util.Arrays;
 import javax.servlet.http.HttpServletRequest;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -35,7 +34,5 @@ public class LogControllerAspect {
 		log.info("資源參數: " + Arrays.asList(joinPoint.getArgs()));
 		log.info("資源URI: " + Arrays.asList(getMapping.value()));
 	}
-	
-	
 	
 }
