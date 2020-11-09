@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.jack.exercise.service.ComplexAlgorithmService;
 
 @SpringBootTest
-public class LogExecutionTimeTest {
+public class LogExecutionTimeAspectTest {
 
 	@Autowired
 	private ComplexAlgorithmService service;
